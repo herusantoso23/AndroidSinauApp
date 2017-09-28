@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background_color"
+    tools:context="herolab.com.mahasiswa.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="REGISTER"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/sinau"
+            android:id="@+id/judul"
+            android:layout_marginBottom="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/edit_username"
+            android:hint=" username"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/edit_password"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/edit_nama"
+            android:hint="  Nama"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:id="@+id/simpan"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_kelas"
+            android:text="Sign Out"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
